@@ -8,7 +8,6 @@ edition = "2021"
 [profile.release]
 lto = "fat"
 [profile.dev]
-lto = "fat"
-
 
 [dependencies]
+autodiff = { version = "0.1.0", path = "../rust-enzyme/library/autodiff" }
